@@ -1,0 +1,7 @@
+services:
+  frontend:
+    build: .
+    image: secure-auth-ui:local
+    container_name: secure-auth-ui
+    ports:
+      - "127.0.0.1:8081:8080"
